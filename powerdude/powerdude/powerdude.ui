@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Powerdude</class>
+ <widget class="QWidget" name="Powerdude">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>小智</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="powerdude.qrc">
+    <normaloff>:/powerdude/Resources/PowerBoy.ico</normaloff>:/powerdude/Resources/PowerBoy.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QComboBox" name="conPrlCBox">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="maxCount">
+      <number>2147483647</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>RDP协议</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SSH协议</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>VNC协议</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="ipEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="placeholderText">
+      <string>IP</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="protEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="placeholderText">
+      <string>端口</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="realmNameEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="placeholderText">
+      <string>域名（可选）</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="userNameEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="placeholderText">
+      <string>用户名</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="passwordEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>密码</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="loginBtn">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>登入</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="powerdude.qrc"/>
+ </resources>
+ <connections/>
+</ui>

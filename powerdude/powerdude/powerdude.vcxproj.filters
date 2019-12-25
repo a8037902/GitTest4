@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="disasm-lib\cpu.c">
+      <Filter>disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm-lib\disasm.c">
+      <Filter>disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm-lib\disasm_x86.c">
+      <Filter>disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm-lib\misc.c">
+      <Filter>disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook-lib\mhook.cpp">
+      <Filter>mhook-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="autohideframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="axwidgetmanage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="infolistwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="infowidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loginwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_hook.cpp">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="onecloudwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerdude.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerdudemain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerdudewin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="remotedesktopdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="remotedesktopframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="switchcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMovingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThumbWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="translucentbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vncsshdesktop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weblabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="websocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cloudblockmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpclient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DockWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logindatahandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DockMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCloud\onecloudview.cpp">
+      <Filter>OneCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCloud\onecloudaxwidget.cpp">
+      <Filter>OneCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCloud\onecloudwebengineview.cpp">
+      <Filter>OneCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCloud\onecloudmainwindow.cpp">
+      <Filter>OneCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCloud\onecloudmanage.cpp">
+      <Filter>OneCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCloud\oneclouddata.cpp">
+      <Filter>OneCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="oneclouddatafactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCloudData\onecloudp2pdata.cpp">
+      <Filter>OneCloudData</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCloudData\onecloudnormaldata.cpp">
+      <Filter>OneCloudData</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="onecloudmessagebox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="h5login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="h5logincontext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="passwordh5login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smsh5login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screenrecorddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oneclouddatamap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tabicondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThumbnailWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="disasm-lib\cpu.h">
+      <Filter>disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm-lib\disasm.h">
+      <Filter>disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm-lib\disasm_x86.h">
+      <Filter>disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm-lib\disasm_x86_tables.h">
+      <Filter>disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm-lib\misc.h">
+      <Filter>disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook-lib\mhook.h">
+      <Filter>mhook-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="chatsvrinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MstscRdpInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="translucentbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpclient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oneclouddatafactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OneCloudData\onecloudp2pdata.h">
+      <Filter>OneCloudData</Filter>
+    </ClInclude>
+    <ClInclude Include="OneCloudData\onecloudnormaldata.h">
+      <Filter>OneCloudData</Filter>
+    </ClInclude>
+    <ClInclude Include="dlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h5logincontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oneclouddatamap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="autohideframe.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="axwidgetmanage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="infolistwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="infowidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lock.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="loginwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="onecloudwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="powerdude.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="powerdudemain.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="powerdudewin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="remotedesktopdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="remotedesktopframe.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="setdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="settings.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="switchcontrol.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="TextMovingWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThumbWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="update.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="version.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="vncsshdesktop.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="weblabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="websocket.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cloudblockmanager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="hook.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DockWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="logindatahandler.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DockMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="OneCloud\onecloudview.h">
+      <Filter>OneCloud</Filter>
+    </QtMoc>
+    <QtMoc Include="OneCloud\onecloudaxwidget.h">
+      <Filter>OneCloud</Filter>
+    </QtMoc>
+    <QtMoc Include="OneCloud\onecloudwebengineview.h">
+      <Filter>OneCloud</Filter>
+    </QtMoc>
+    <QtMoc Include="OneCloud\onecloudmainwindow.h">
+      <Filter>OneCloud</Filter>
+    </QtMoc>
+    <QtMoc Include="ToolMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="OneCloud\onecloudmanage.h">
+      <Filter>OneCloud</Filter>
+    </QtMoc>
+    <QtMoc Include="OneCloud\oneclouddata.h">
+      <Filter>OneCloud</Filter>
+    </QtMoc>
+    <QtMoc Include="onecloudmessagebox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="h5login.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="passwordh5login.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="smsh5login.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="screenrecorddialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tabicondialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThumbnailWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="application.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="infowidget.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="powerdude.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="powerdudemain.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="remotedesktopdialog.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="update.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="infolistwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="infowidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="lock.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="loginwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="powerdude.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="powerdudemain.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="powerdudewin.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="remotedesktopdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="setdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="setwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="update.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="messagebox.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="screenrecorddialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="tabicondialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ThumbnailWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="disasm-lib">
+      <UniqueIdentifier>{3efdc30f-923f-4444-ae80-6af775b3b847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhook-lib">
+      <UniqueIdentifier>{9f9012cd-3dea-4670-b68f-845f8fc14c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeneratedFiles">
+      <UniqueIdentifier>{9402497f-61ce-42ea-b728-dc809c69432f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ba070bdd-973c-42ec-b190-fc8caf574b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="OneCloud">
+      <UniqueIdentifier>{c26c2edf-81dd-4757-9b93-91c1d3c41b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OneCloudData">
+      <UniqueIdentifier>{ca40d8fb-5666-443e-8bd5-a9d833005794}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\PowerBoy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="powerdude.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

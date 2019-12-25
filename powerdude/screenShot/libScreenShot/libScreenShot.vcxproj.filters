@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libScreenShot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QArrow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QBrush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QCtrlPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDrawerPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QEllipse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QRectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QTransparent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screenShot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenShotDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libscreenshot_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="IDrawable.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QArrow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QBrush.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QCtrlPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QDrawerPanel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QEllipse.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QMask.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QRectangle.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QText.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QTransparent.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="screenShot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="libScreenShot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ScreenShotDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="QDrawerPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="QCtrlPanel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="screenShot.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ScreenShotDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="screenShot.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

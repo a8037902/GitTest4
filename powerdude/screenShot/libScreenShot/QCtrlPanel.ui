@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QCtrlPanel</class>
+ <widget class="QWidget" name="QCtrlPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>419</width>
+    <height>32</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>QCtrlPanel</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>428</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <property name="spacing">
+     <number>2</number>
+    </property>
+    <property name="leftMargin">
+     <number>2</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QRadioButton" name="radioButton_Rectangle">
+      <property name="minimumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>矩形工具</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newScreenShot/Resources/control_01.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newScreenShot/Resources/control_01.png);
+}
+</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>23</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_Elipse">
+      <property name="minimumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>椭圆工具</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newScreenShot/Resources/control_02.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newScreenShot/Resources/control_02.png);
+}
+</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/screenShot/Resources/control_02.jpg</normaloff>:/screenShot/Resources/control_02.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_Arrow">
+      <property name="minimumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>箭头工具</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newScreenShot/Resources/control_03.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newScreenShot/Resources/control_03.png);
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_Brush">
+      <property name="minimumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>画刷工具</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newScreenShot/Resources/control_04.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newScreenShot/Resources/control_04.png);
+}</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/screenShot/Resources/control_04.jpg</normaloff>:/screenShot/Resources/control_04.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_Transparent">
+      <property name="minimumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>荧光笔工具</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newScreenShot/Resources/control_05.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newScreenShot/Resources/control_05.png);
+}</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/screenShot/Resources/control_05.jpg</normaloff>:/screenShot/Resources/control_05.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_Mask">
+      <property name="minimumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>马赛克工具</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newScreenShot/Resources/control_06.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newScreenShot/Resources/control_06.png);
+}</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/screenShot/Resources/control_06.jpg</normaloff>:/screenShot/Resources/control_06.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_Text">
+      <property name="minimumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>文字工具</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newScreenShot/Resources/control_07.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newScreenShot/Resources/control_07.png);
+}</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/screenShot/Resources/control_07.jpg</normaloff>:/screenShot/Resources/control_07.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line_5">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="toolButton_undo">
+      <property name="toolTip">
+       <string>撤销</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/newScreenShot/Resources/control_08.png</normaloff>:/newScreenShot/Resources/control_08.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="toolButton_Save">
+      <property name="toolTip">
+       <string>保存截图</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/newScreenShot/Resources/control_09.png</normaloff>:/newScreenShot/Resources/control_09.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="toolButton_Cancel">
+      <property name="toolTip">
+       <string>取消截图</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/newScreenShot/Resources/control_10.png</normaloff>:/newScreenShot/Resources/control_10.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="toolButton_OK">
+      <property name="minimumSize">
+       <size>
+        <width>55</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>完成截图</string>
+      </property>
+      <property name="text">
+       <string>完成</string>
+      </property>
+      <property name="icon">
+       <iconset resource="screenShot.qrc">
+        <normaloff>:/newScreenShot/Resources/control_11.png</normaloff>:/newScreenShot/Resources/control_11.png</iconset>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextBesideIcon</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line_6">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_Resolution">
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>当前截图大小</string>
+      </property>
+      <property name="text">
+       <string>1024 x 1024</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="screenShot.qrc"/>
+ </resources>
+ <connections/>
+</ui>

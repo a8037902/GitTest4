@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/infowidget">
+        <file>Resources/关闭.png</file>
+        <file>Resources/connecting.png</file>
+        <file>Resources/disconnecting.png</file>
+        <file>Resources/unconnection.png</file>
+        <file>Resources/function_cloud_desktop.png</file>
+        <file>Resources/function_desktop_group.png</file>
+        <file>Resources/function_same_screen.png</file>
+        <file>Resources/function_ssh.png</file>
+        <file>Resources/function_vnc.png</file>
+        <file>Resources/list_cloud_desktop.png</file>
+        <file>Resources/list_cmd.png</file>
+        <file>Resources/list_p2p.png</file>
+        <file>Resources/list_powerone_root.png</file>
+        <file>Resources/toconnecting.png</file>
+        <file>Resources/function_same_screen2.png</file>
+        <file>Resources/function_same_screen3.png</file>
+    </qresource>
+</RCC>

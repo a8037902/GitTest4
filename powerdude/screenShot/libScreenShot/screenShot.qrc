@@ -1,0 +1,66 @@
+<RCC>
+    <qresource prefix="/screenShot">
+        <file>Resources/screenshot.ico</file>
+        <file>Resources/control_01.jpg</file>
+        <file>Resources/control_02.jpg</file>
+        <file>Resources/control_03.jpg</file>
+        <file>Resources/control_04.jpg</file>
+        <file>Resources/control_05.jpg</file>
+        <file>Resources/control_06.jpg</file>
+        <file>Resources/control_07.jpg</file>
+        <file>Resources/control_08.jpg</file>
+        <file>Resources/control_09.jpg</file>
+        <file>Resources/control_10.jpg</file>
+        <file>Resources/control_11.jpg</file>
+    </qresource>
+    <qresource prefix="/rectangle">
+        <file>Resources/dot_1.png</file>
+        <file>Resources/dot_2.png</file>
+        <file>Resources/dot_3.png</file>
+    </qresource>
+    <qresource prefix="/text">
+        <file>Resources/text_logo.png</file>
+    </qresource>
+    <qresource prefix="/mask">
+        <file>Resources/degree_6.png</file>
+        <file>Resources/degree_8.png</file>
+        <file>Resources/degree_10.png</file>
+        <file>Resources/degree_12.png</file>
+        <file>Resources/degree_14.png</file>
+        <file>Resources/degree_16.png</file>
+    </qresource>
+    <qresource prefix="/newScreenShot">
+        <file>Resources/control_01.png</file>
+        <file>Resources/control_02.png</file>
+        <file>Resources/control_03.png</file>
+        <file>Resources/control_04.png</file>
+        <file>Resources/control_05.png</file>
+        <file>Resources/control_06.png</file>
+        <file>Resources/control_07.png</file>
+        <file>Resources/control_08.png</file>
+        <file>Resources/control_09.png</file>
+        <file>Resources/control_10.png</file>
+        <file>Resources/control_11.png</file>
+    </qresource>
+    <qresource prefix="/newMask">
+        <file>Resources/degree_new_6.png</file>
+        <file>Resources/degree_new_8.png</file>
+        <file>Resources/degree_new_10.png</file>
+        <file>Resources/degree_new_12.png</file>
+        <file>Resources/degree_new_14.png</file>
+        <file>Resources/degree_new_16.png</file>
+    </qresource>
+    <qresource prefix="/newdots">
+        <file>Resources/new_dot_1.png</file>
+        <file>Resources/new_dot_2.png</file>
+        <file>Resources/new_dot_3.png</file>
+    </qresource>
+    <qresource prefix="/color_degree">
+        <file>Resources/color_degree_6.png</file>
+        <file>Resources/color_degree_8.png</file>
+        <file>Resources/color_degree_10.png</file>
+        <file>Resources/color_degree_12.png</file>
+        <file>Resources/color_degree_14.png</file>
+        <file>Resources/color_degree_16.png</file>
+    </qresource>
+</RCC>

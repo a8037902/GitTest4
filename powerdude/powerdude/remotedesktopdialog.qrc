@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/remotedesktopdialog">
+        <file>Resources/favicon.ico</file>
+        <file>Resources/PowerBoy.ico</file>
+    </qresource>
+</RCC>

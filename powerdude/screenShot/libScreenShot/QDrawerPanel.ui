@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QDrawerPanel</class>
+ <widget class="QWidget" name="QDrawerPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>65</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>71</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>QDrawerPanel</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>331</width>
+     <height>66</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="page_3">
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="leftMargin">
+           <number>3</number>
+          </property>
+          <property name="topMargin">
+           <number>3</number>
+          </property>
+          <property name="rightMargin">
+           <number>3</number>
+          </property>
+          <property name="bottomMargin">
+           <number>3</number>
+          </property>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget_2">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <widget class="QWidget" name="page">
+             <widget class="QWidget" name="horizontalLayoutWidget_2">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>-4</y>
+                <width>89</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QRadioButton" name="radioButton_pensize_small">
+                 <property name="minimumSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newdots/Resources/new_dot_1.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newdots/Resources/new_dot_1.png);
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QRadioButton" name="radioButton_pensize_middle">
+                 <property name="minimumSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newdots/Resources/new_dot_2.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newdots/Resources/new_dot_2.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QRadioButton" name="radioButton_pensize_big">
+                 <property name="minimumSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/newdots/Resources/new_dot_3.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/newdots/Resources/new_dot_3.png);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="page_2">
+             <widget class="QWidget" name="horizontalLayoutWidget_3">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>5</y>
+                <width>75</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QLabel" name="label_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>24</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>24</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="screenShot.qrc">:/newScreenShot/Resources/control_07.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="comboBox_text_size">
+                 <property name="maximumSize">
+                  <size>
+                   <width>60</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>8</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>9</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>10</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>11</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>12</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>14</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>16</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>18</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>20</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_7">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_color">
+            <property name="minimumSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="4">
+             <widget class="QToolButton" name="color_51">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(0, 170, 0);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QToolButton" name="color_52">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(85, 255, 0);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QToolButton" name="color_32">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 0, 0);
+border:1px solid gray
+</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="6">
+             <widget class="QToolButton" name="color_72">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 0, 255);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="6">
+             <widget class="QToolButton" name="color_71">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(85, 0, 127);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="5">
+             <widget class="QToolButton" name="color_61">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(0, 0, 127);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QToolButton" name="color_21">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(132, 127, 135);
+border:1px solid gray
+</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="7">
+             <widget class="QToolButton" name="color_81">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(0, 170, 127);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QToolButton" name="color_22">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(218, 218, 218);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QToolButton" name="color_11">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(0, 0, 0);
+border:1px solid gray</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QToolButton" name="color_41">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(170, 170, 0);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QToolButton" name="color_31">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(85, 0, 0);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="5">
+             <widget class="QToolButton" name="color_62">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(0, 0, 255);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="7">
+             <widget class="QToolButton" name="color_82">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(85, 255, 255);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QToolButton" name="color_12">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QToolButton" name="color_42">
+              <property name="maximumSize">
+               <size>
+                <width>16</width>
+                <height>16</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 0);
+border:1px solid gray</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QWidget" name="horizontalLayoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>291</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="maximumSize">
+            <size>
+             <width>55</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>模糊度</string>
+           </property>
+           <property name="scaledContents">
+            <bool>false</bool>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="Line" name="line">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_degree_6">
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/color_degree/Resources/color_degree_6.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/color_degree/Resources/color_degree_6.png);
+}</string>
+           </property>
+           <property name="text">
+            <string>RadioButton</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_degree_8">
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/color_degree/Resources/color_degree_8.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/color_degree/Resources/color_degree_8.png);
+}</string>
+           </property>
+           <property name="text">
+            <string>RadioButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_degree_10">
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/color_degree/Resources/color_degree_10.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/color_degree/Resources/color_degree_10.png);
+}</string>
+           </property>
+           <property name="text">
+            <string>RadioButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_degree_12">
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/color_degree/Resources/color_degree_12.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/color_degree/Resources/color_degree_12.png);
+}</string>
+           </property>
+           <property name="text">
+            <string>RadioButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_degree_14">
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/color_degree/Resources/color_degree_14.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/color_degree/Resources/color_degree_14.png);
+}</string>
+           </property>
+           <property name="text">
+            <string>RadioButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_degree_16">
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QRadioButton::indicator {
+    width:                  23px;
+    height:                 23px;
+}
+QRadioButton::indicator::checked {
+    image: url(:/color_degree/Resources/color_degree_16.png);
+	border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    image: url(:/color_degree/Resources/color_degree_16.png);
+}</string>
+           </property>
+           <property name="text">
+            <string>RadioButton</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="screenShot.qrc"/>
+  <include location="../../../../screenShot/screenShot/screenShot.qrc"/>
+ </resources>
+ <connections/>
+</ui>
